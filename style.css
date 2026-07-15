@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    background: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Canvas */
+.canvas{
+ position: relative;
+    width: 700px;
+    height: 700px;
+    background-color: white; 
+    border: 2px solid #ccc;
+}
+/* Large black square */
+.black{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    left: 250px;
+    top: 270px;
+    transform: rotate(-18deg);
+    z-index: 5;
+}
+/* Yellow rectangle */
+.yellow{
+    position: absolute;
+    width: 220px;
+    height: 80px;
+    background-color: #f3c623;
+    left: 180px;
+    top: 120px;
+    transform: rotate(-32deg);
+    z-index: 3;
+}
+/* Red rectangle */
+.red{
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    background-color: #d62828;
+    left: 300px;
+    top: 420px;
+    transform: rotate(12deg);
+    z-index: 4;
+}
+/* Blue rectangle */
+.blue{
+    position: absolute;
+    width: 150px;
+    height: 25px;
+    background-color: #2b59c3;
+    left: 160px;
+    top: 500px; 
+    transform: rotate(50deg);
+    z-index: 2;
+}
+/*  Small squares */
+.small{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+}
+.black-small{
+    background-color: green;
+    left: 480px;
+    top: 470px;
+}
+.yellow-small{
+    background-color: #f3c623;
+    left: 410px;
+    top: 250px;
+}
+/* Thin lines */
+.line{
+    position: absolute;
+    background-color: green ;
+}
+.horizontal{
+    width: 260px;
+    height: 8px;
+    left: 110px;
+    top: 340px;
+    transform: rotate(28deg);
+}
+.vertical{
+    width: 8px;
+    height: 220px;
+    left: 360px;
+    top: 150px;
+    transform: rotate(-8deg);
+}
+/* Circle */
+.circle{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #f15a24;
+    left: 150px;
+    top: 180px;
+    z-index: 1;
+}
